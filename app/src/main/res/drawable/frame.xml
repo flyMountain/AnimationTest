@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@mipmap/add_attention"
+        android:duration="300"></item>
+    <item
+        android:drawable="@mipmap/calendar"
+        android:duration="300"></item>
+    <item
+        android:drawable="@mipmap/check_false"
+        android:duration="300"></item>
+    <item
+        android:drawable="@mipmap/check_true"
+        android:duration="300"></item>
+    <item
+        android:drawable="@mipmap/detele_alluring"
+        android:duration="300"></item>
+</animation-list>

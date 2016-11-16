@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:fillBefore="true">
+
+    <!--
+     fromXScale 初始X轴缩放比例，1.0表示无变化
+     toXScale:结束X轴缩放比例
+     fromYScale:初始Y轴缩放比例
+     toYScale:结束Y轴缩放比例
+      pivotX:缩放起点X轴坐标（数值、百分数、百分数p，譬如50表示以当前View左上角坐标加50px为初始点、5
+              0%表示以当前View的左上角加上当前View宽高的50%做为初始点、50%p表示以当前View的左上角加上父控件宽高的50%做为初始点）
+      pivotY:缩放起点Y轴坐标，同上规律
+    -->
+    <scale
+        android:duration="300"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.6"
+        android:toYScale="1.6" />
+    <scale
+        android:duration="300"
+        android:fromXScale="1.6"
+        android:fromYScale="1.6"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+    <scale
+        android:duration="600"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.0"
+        android:toYScale="0.0" />
+
+</set>
